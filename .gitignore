@@ -1,0 +1,14 @@
+# Training outputs
+runs/
+checkpoints/
+recordings/
+dreams/
+results/*.png
+results/*.md
+
+# Python, notebooks, editors
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.vscode/

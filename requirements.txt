@@ -1,0 +1,10 @@
+# GQ-Dreamer on Atari 100k
+torch>=2.4                 # CUDA build from https://pytorch.org for training
+gymnasium>=1.0
+ale-py>=0.9                # ships the Atari ROMs (no AutoROM needed)
+opencv-python>=4.8         # frame resizing, evaluation videos
+numpy>=1.24
+matplotlib>=3.7            # plots, dream PDFs
+# optional
+# triton-windows<3.9       # torch.compile on Windows (Linux: bundled with torch)
+# pytest                   # python -m pytest tests -q
